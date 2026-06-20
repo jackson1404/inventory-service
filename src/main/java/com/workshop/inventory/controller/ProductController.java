@@ -19,6 +19,7 @@ public class ProductController {
         this.repo = repo;
     }
 
+    // testing
     @GetMapping("/products")
     public List<Product> getAll() {
         return repo.findAll();
